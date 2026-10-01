@@ -1,0 +1,73 @@
+/* All pages CSS */
+
+* {
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body > header {
+  position: sticky;
+  top: 0;
+
+  padding: 0.5em;
+
+  background-color: gray;
+}
+
+body > header > div {
+  display: inline-flex;
+}
+
+body > header > div > h1 {
+  min-width: 100%;
+  margin: 0.5em;
+}
+
+body > header > div > span {
+  max-height: 2em;
+  display: inline-flex;
+  align-self: center;
+}
+
+body > header nav {
+  display: flex;
+}
+
+body > header nav button {
+  flex: 1 1;
+  padding: 0.25em;
+}
+
+body > section {
+  min-height: 1vh;
+}
+
+body > footer {
+  margin-top: 4em;
+  padding: 1em 0;
+
+  background-color: gray;
+}
+
+/* Tourism page styling */
+#WTD-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#WTD-container > section {
+  flex: 1 1;
+}
+
+#transportation-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#transportation-container > section {
+  flex: 1 1;
+}
